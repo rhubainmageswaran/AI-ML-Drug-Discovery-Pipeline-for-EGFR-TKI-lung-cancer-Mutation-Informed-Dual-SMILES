@@ -357,8 +357,7 @@ Both sets contain **training scripts** (`*.py`) and **prediction/inference scrip
 | **Validated Drug TKI (full)** | `df_validated_drug_tki.csv` | Full curated EGFR TKI corpus; clinically validated IC50 values, mutation labels, and docking scores (n = 745 total) | ~7.9 MB |
 | **Validated Drug TKI (test set)** | `testset_valid_tki.csv` | Blind test set of strictly validated drug TKIs held out for evaluation (n = 372) | ~3.72 MB |
 | **Non-Drug TKI (training)** | `df_nondrug_tki.csv` | Larger combined training set: non-validated investigational TKIs plus 373 injected validated labels (n = 2,799) | ~26.6 MB |
-| **Quick Validation** | `egfr_tki_cleaned.csv` | Small subset for quick validation runs | ~0.7 KB |
-| **Generated Ligands** | `generated_ligands_drugs.csv` | Novel ligand candidates from the ligand generator for prediction/inference | ~0.4 KB |
+
 
 #### Dataset Curation Process
 
